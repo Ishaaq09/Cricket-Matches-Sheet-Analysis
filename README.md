@@ -1,6 +1,22 @@
 # Cricket-Matches-Sheet-Analysis
 This project focuses on extracting, transforming, and analyzing cricket match data from Cricsheet.org. The goal is to automate data collection, store it in an SQL database, perform deep analysis using SQL and Python, and visualize key insights through both Python plots and Power BI dashboards.
 
+### Important Note
+Due to GitHub's 100MB file size limit, this repository only includes the core Jupyter Notebook (`main.ipynb`) and documentation.
+
+The full project folder (~1.5GB) contains:
+- Extracted JSON data (`extracted_matches/`) ~1.3GB
+- SQLite database (`cricsheet_analysis.db`) ~340MB
+
+These files could not be pushed to GitHub directly.
+
+If you want to run this project:
+1. Clone the repo
+2. Run the notebook cells step-by-step
+3. The notebook will recreate all required files (download JSONs, parse data, create DB)
+
+Feel free to reach out if you face issues.
+
 ### Project Objectives
 1. Web scrape cricket data using Selenium
 2. Parse and transform JSON files into structured data
