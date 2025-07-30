@@ -844,7 +844,7 @@ OUTPUT:
 
 Finally, we're creating an interactive visual dashboard using Power BI.
 
-1. Connected SQLite DB via ODBC
+1. For the first step, we're saving the DataFrames to csv files. We have now saved 6 csv files saved for the dashboard visualizations.
 
 2. Used stacked column charts, bar graphs, pie charts
 
@@ -863,3 +863,10 @@ Win/loss analysis across different formats:
 Comparative statistics of teams and players:
 
 ![image](https://github.com/user-attachments/assets/44629ec7-6b6d-40fd-92d0-6340d19cdf68)
+
+
+### sql queries and schema creation:
+
+These are two sql files, of which should one should contain the 20 sql queries we used, the other is the schema of the 6 tables.
+
+
